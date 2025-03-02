@@ -1,0 +1,22 @@
+print("J'aime la pomme.")
+print('------------')
+first_name = "Tianyuan"
+last_name = "LIN"
+print(first_name + " " + last_name)
+print('------------')
+print("60euro")
+print("60" + "euro")
+print('------------')
+print(10 + 20)
+print(10 - 20)
+print(10 * 20)
+print(10 / 20)
+print(9 // 2)   # 9 ➗ 2 = 4 …… 1
+print(9 % 2)
+print(2 ** 3)
+print('------------')
+print(0.55 + 0.3)
+print('------------')
+print(type(42))
+print(type('42'))
+print(type(42.0))
