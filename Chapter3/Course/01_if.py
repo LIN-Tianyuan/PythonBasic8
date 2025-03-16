@@ -5,6 +5,8 @@ a = 90
 #    action
 # else:
 #    action
+# 返回布尔值（bool）False
+print(90>100)
 if a > 100:
     print("a dépasse la centaine.")
 else:
