@@ -4,6 +4,7 @@ import random
 # 用随机数定义电脑的值
 computer = random.randint(1, 100)
 print(computer)
+# 统计用户猜的次数
 count = 0
 # 用户猜数
 # 常用的套路：
