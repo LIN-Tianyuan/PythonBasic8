@@ -31,3 +31,30 @@ print(leisure)
 # 清空列表
 leisure.clear()
 print(leisure)
+
+print('----------')
+month = ['Janvier', 'Février', 'Mars']
+season = ['Automne', 'Hiver', 'Printemps', 'Eté']
+# 合并两个列表
+various_times = month + season
+print(various_times)
+print('----------')
+# 在原本的列表上添加新的列表元素
+month.extend(season)
+print(month)
+print(season)
+
+print('----------')
+rainbow = ['rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet']
+print(len(rainbow))
+# 列表切片，用来获取子列表
+print(rainbow[1:4])
+# 冒号后面的省略不写，就是默认取到列表最后一个元素
+print(rainbow[2:])  # print(rainbow[2:7])
+# 冒号前面的省略不写，就是默认从第零个元素开始取
+print(rainbow[:4])  # print(rainbow[0:4])
+# 最后一个元素的下标是-1
+print(rainbow[-1])
+print(rainbow[-2:])
+print(rainbow[-5:-1])
+
